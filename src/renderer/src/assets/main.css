@@ -1,0 +1,89 @@
+
+body {
+  height: 100dvh;
+}
+
+.MenuContect{
+  display: flex;
+  width: 100%;
+  height: 100dvh;
+
+}
+.MenuContect .Menu{
+  width: 20%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  width: 80%;
+  overflow-y: auto;
+}
+
+.bwgg1{
+  height: 90%;
+}
+.bwgg2{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.bwgg2 .botonase{
+  width: 100%;
+
+}
+.CamarasArray{
+  display: flex;
+  
+}
+
+.CamaraView{
+  overflow-y: auto;
+}
+.CamaraView video{
+  margin: 12px;
+  border: #2FA4D8 3px solid;
+  border-radius: 12px;
+  height: 280px;
+  width: auto;
+}
+.dskflsdfd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.DivLiberCaer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .menu{
+    display: none;
+  }
+}
+
+
+.QRRe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.QRRe canvas {
+  border-radius: 12px;
+}
